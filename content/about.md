@@ -1,12 +1,14 @@
 ---
 images:
 - /images/about.jpg
-title: about
+title: about - hello world!
 url: about
 hideTitle: true
 hideExif: true
 hideDate: true
 ---
+
+## Hello World!
 
 <div align="center">
   <h1>Hello World!</h1>
