@@ -1,0 +1,57 @@
+<!--
+    Returns image by getting from locale or remote.
+
+    Example usage;
+        {{/*  $scratch := newScratch */}}
+        {{/*  partial "helpers/get" (dict "scratch" $scratch "row" $row) */}}
+        {{/*  $img := $scratch.Get "img" */}}
+
+    Example usage on Post level;
+        images:
+            - https://bora.sh/logo.png
+            - /images/logo.png
+    Both images will be resized. Remote image will be downloaded while building the hugo site.
+ -->
+
+{{ if hasPrefix (index $.row.images 0) "/" }}
+    {{ $.scratch.Set "img" (resources.Get (index $.row.images 0)) }}
+{{ else }}
+    {{ $.scratch.Set "img" (resources.GetRemote (index $.row.images 0)) }}
+{{ end }}
+
+{{ if $.row.mainImage }}
+    {{ if hasPrefix (index $.row.images 0) "/" }}
+        {{ $.scratch.Set "img" (resources.Get $.row.mainImage) }}
+    {{ else }}
+        {{ $.scratch.Set "img" (resources.GetRemote $.row.mainImage) }}
+    {{ end }}
+{{ end }}
+
+<!--
+    Returns video by getting from locale or remote.
+
+    Example usage;
+        {{/*  $scratch := newScratch */}}
+        {{/*  partial "helpers/get" (dict "scratch" $scratch "row" $row) */}}
+        {{/*  $vid := $scratch.Get "vid" */}}
+
+    Example usage on Post level;
+        videos:
+            - https://bora.sh/logo.png
+            - /videos/logo.png
+    Both videos will be resized. Remote video will be downloaded while building the hugo site.
+ -->
+
+{{ if hasPrefix (index $.row.videos 0) "/" }}
+    {{ $.scratch.Set "vid" (resources.Get (index $.row.videos 0)) }}
+{{ else }}
+    {{ $.scratch.Set "vid" (resources.GetRemote (index $.row.videos 0)) }}
+{{ end }}
+
+{{ if $.row.mainVideo }}
+    {{ if hasPrefix (index $.row.videos 0) "/" }}
+        {{ $.scratch.Set "vid" (resources.Get $.row.mainVideo) }}
+    {{ else }}
+        {{ $.scratch.Set "vid" (resources.GetRemote $.row.mainVideo) }}
+    {{ end }}
+{{ end }}

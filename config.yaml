@@ -1,0 +1,82 @@
+baseURL: https://anyajocsonart.com
+title: Anya Jocson
+defaultContentLanguage: 'en'
+theme: ["hugo-video", "eternity"]
+#theme: ["eternity"]
+googleAnalytics: '' # todo: set your analytics id.
+
+params:
+  image: /images/banner.png
+  logo: logo.png # todo: add your custom logo to static/
+  subtitle: Anya Jocson (1994) is a Filipino multidisciplinary artist born and raised in Nicosia, Cyprus currently based in Utrecht, the Netherlands. # todo: change default subtitle for your website.
+  copyright: All rights reserved. # todo: set your copyright type.
+  author: anyajocsonart
+  dontShowSource: true
+  portfolio:
+    columns:
+      desktop:
+        default: 3
+      mobile:
+        default: 2
+  socials:
+    # todo: change these links.
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:hello@anyajocsonart.com'
+      landing: true
+      #- icon: 'fab fa-github fa-lg'
+      #  url: 'https://github.com/boratanrikulu/eternity'
+    - icon: 'fab fa-instagram fa-lg'
+      url: 'https://www.instagram.com/anyajocsonart/'
+      landing: true
+      #- icon: 'fab fa-linkedin-in fa-lg'
+      #  url: 'https://linkedin.bora.sh/in/eternity'
+
+  homepage: "/hello" # todo: uncomment homepage, homepage link is mostly same with menu.main[0]
+  specialPages:
+    - hello
+    - archive
+  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  plausible: '' # todo: set your plausible id.
+  disableWelcomePageBackground: false # disables the background image on the homepage
+  disableRadius: false
+  moveIt: true # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  hello: ":filename/"
+
+# todo: uncomment menu.main array after you create contents.
+# menu:
+#   main:
+#     - name: hello
+#       url: /hello/
+#       weight: 1
+menu:
+  main:
+    - name: hello
+      url: /hello/
+      weight: 1
+    - name: murals
+      url: /tags/murals/
+      weight: 2
+    - name: animations
+      url: /tags/animations/
+      weight: 3
+#    - name: illustrations
+#      url: /tags/illustrations/
+#      weight: 4
+    - name: about
+      url: /about/
+      weight: 5
+    - name: contact
+      url: /contact/
+      weight: 6
