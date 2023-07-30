@@ -30,11 +30,11 @@ params:
       #- icon: 'fab fa-linkedin-in fa-lg'
       #  url: 'https://linkedin.bora.sh/in/eternity'
 
-  homepage: "/hello" # todo: uncomment homepage, homepage link is mostly same with menu.main[0]
+  homepage: "/" # todo: uncomment homepage, homepage link is mostly same with menu.main[0]
   specialPages:
     - hello
     - archive
-  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
   plausible: '' # todo: set your plausible id.
   disableWelcomePageBackground: false # disables the background image on the homepage
   disableRadius: false
@@ -61,9 +61,9 @@ permalinks:
 #       weight: 1
 menu:
   main:
-    - name: hello
-      url: /hello/
-      weight: 1
+#    - name: hello
+#      url: /hello/
+#      weight: 1
     - name: murals
       url: /tags/murals/
       weight: 2
