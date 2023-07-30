@@ -2,7 +2,7 @@
 weight: 10
 images:
 - /images/murals/murals-10.jpg
-title: anyajocsonart
+title: anyajocsonart edit
 date: 2022-07-23
 hideExif: true
 tags:
