@@ -1,14 +1,31 @@
 ---
 weight: 9
 images:
+- /images/murals/murals-99.jpg
 - /images/murals/murals-9.jpg
-title: anyajocsonart
-date: 2022-07-23
+
+title:
+hideDate: true
 hideExif: true
 tags:
 - archive # all posts
-- hello
 - murals
 ---
 
-# [@anyajocsonart](https://www.instagram.com/anyajocsonart/)
+<html>
+<head>
+<style>
+h1 {text-align: center;} 
+p {text-align: center;}
+
+</style>
+</head>
+<body>
+
+
+<p>Personal project / mock design</p>
+
+
+
+</body>
+</html>
