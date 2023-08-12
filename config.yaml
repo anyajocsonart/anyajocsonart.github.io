@@ -5,9 +5,9 @@ theme: ["eternity"]
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
-  image: /images/banner.png
+  image: /static/logo.png
   logo: logo.png # todo: add your custom logo to static/
-  subtitle: Anya Jocson (1994) is a Filipino multidisciplinary artist born and raised in Nicosia, Cyprus currently based in Utrecht, the Netherlands. # todo: change default subtitle for your website.
+  subtitle: Anya Jocson is a Filipino mural artist and illustrator, born and raised in sunny Nicosia, Cyprus. # todo: change default subtitle for your website.
   copyright: All rights reserved. # todo: set your copyright type.
   author: anyajocsonart
   dontShowSource: true

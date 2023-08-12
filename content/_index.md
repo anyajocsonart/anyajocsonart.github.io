@@ -1,5 +1,5 @@
 ---
 desc:
-- "@AnyaJocsonArt is a Filipino Multi-Disciplinary Artist."
-- "Born and raised in Nicosia, Cyprus... based in Utrecht, Netherlands."
+- "@anyajocsonart is a Filipino mural artist and illustrator"
+- "Born and raised in sunny Nicosia, Cyprus."
 ---
