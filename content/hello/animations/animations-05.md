@@ -2,13 +2,25 @@
 weight: 5
 videos:
 - /videos/animations/animations-05.mp4
-title: anyajocsonart - animations-05
-date: 2022-07-23
+title:
+hideDate: true
 tags:
 - archive # all posts
 - animations
 ---
 
-# [@anyajocsonart](https://www.instagram.com/anyajocsonart/)
+<html>
+<head>
+<style>
+h1 {text-align: center;} 
+p {text-align: center;}
 
-anyajocsonart - animations-05
+</style>
+</head>
+<body>
+
+<h1>Multitasking</h1>
+
+
+</body>
+</html>

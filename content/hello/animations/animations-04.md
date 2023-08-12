@@ -2,13 +2,25 @@
 weight: 4
 videos:
 - /videos/animations/animations-04.mp4
-title: anyajocsonart - animations-02
-date: 2022-07-23
+title:
+hideDate: true
 tags:
 - archive # all posts
 - animations
 ---
+<html>
+<head>
+<style>
+h1 {text-align: center;} 
+p {text-align: center;}
 
-# [@anyajocsonart](https://www.instagram.com/anyajocsonart/)
+</style>
+</head>
+<body>
 
-anyajocsonart - animations-04
+<h1>Jet lagged</h1>
+
+
+
+</body>
+</html>

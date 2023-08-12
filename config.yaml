@@ -20,7 +20,7 @@ params:
   socials:
     # todo: change these links.
     - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:hello@anyajocsonart.com'
+      url: 'mailto:anyajocsonart@gmail.com'
       landing: true
       #- icon: 'fab fa-github fa-lg'
       #  url: 'https://github.com/boratanrikulu/eternity'

@@ -2,13 +2,25 @@
 weight: 6
 videos:
 - /videos/animations/animations-06.mp4
-title: anyajocsonart - animations-06
-date: 2022-07-23
+title: 
+hideDate: true
 tags:
 - archive # all posts
 - animations
 ---
 
-# [@anyajocsonart](https://www.instagram.com/anyajocsonart/)
+<html>
+<head>
+<style>
+h1 {text-align: center;} 
+p {text-align: center;}
 
-anyajocsonart - animations-06
+</style>
+</head>
+<body>
+
+<h1>Magic pasta</h1>
+
+
+</body>
+</html>

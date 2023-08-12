@@ -1,14 +1,26 @@
 ---
-weight: 1
+Weight: 1
 videos:
 - /videos/animations/animations-01.mp4
-title: anyajocsonart - animations-01
-date: 2022-07-23
+title:
+hideDate: true
 tags:
 - archive # all posts
 - animations
 ---
 
-# [@anyajocsonart](https://www.instagram.com/anyajocsonart/)
+<html>
+<head>
+<style>
+h1 {text-align: center;} 
+p {text-align: center;}
 
-anyajocsonart - animations-01
+</style>
+</head>
+<body>
+
+<h1>Art logo</h1>
+
+</body>
+</html>
+
