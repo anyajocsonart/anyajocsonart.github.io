@@ -10,7 +10,7 @@ hideExif: true
 tags:
 - archive # all posts
 - murals
-- hello
+
 ---
 
 <html>
@@ -24,9 +24,9 @@ p {text-align: center;}
 <body>
 
 
-<p>Personal project / mock design</p>
-
-
+<p>Unlocking imagination: Crafting tomorrow's spaces through mock-up murals</p>
+<p>In the realm of design, the ability to envision the final product is important. It’s the bridge between creativity and reality. 
+These visionary artworks serve as portals into the potential of a space, allowing clients to tangibly experience their ideas before a single brushstroke touches the wall.</p>
 
 </body>
 </html>
